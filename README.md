@@ -20,7 +20,7 @@ npm install
 Afterwards, go into the server project folder and set an environment variable and call it SECRET_KEY.  Set the value to whatever you would like.
 
 ```
-SET SECRET_KEY=SETVALUEHERE
+export SECRET_KEY=SETVALUEHERE
 ```
 
 Start the server
@@ -33,7 +33,7 @@ Once the server has started you are ready to use the client.
 
 ### Using the client
 
-Go into the client project folder and issue this command to register a new user.
+Open up a new terminal and go into the client project folder and issue this command to register a new user.
 ```
 node app register -n yourname -e youremail -p yourpassword
 ```
